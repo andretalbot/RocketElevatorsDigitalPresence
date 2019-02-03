@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Smarty - Multipurpose + Admin</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href= https://fonts.google.com/specimen/Roboto -->
+		<!-- https://fonts.google.com/specimen/Roboto -->
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/thematics-education.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+	<!-- "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" /> -->
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- SLIDE TOP -->
+		<div id="slidetop">
+
+			<div class="container">
+				
+				<div class="row">
+
+					<div class="col-md-4">
+						<h6><i class="icon-heart"></i> WHY ROCKET ELEVATOR?</h6>
+						<p>we have expertise in the field of construction, instalation that no other has acquired over the years and a service of impeccable quality </p>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b> 725 boulv lebourgneuf <br /> Quebec,Quebec,Cannada</li>
+							<li><b>Phone:</b> 1-800-580-7055</li>
+							<li><b>Email:</b> <a href="mailto:support@yourname.com">talbot352@hotmail.com</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+
+		</div>
+	
+			</div>
+			
+			<div id="header" class="navbar-toggleable-md sticky clearfix">
+
+				<!-- SEARCH HEADER -->
+				<div class="search-box over-header">
+					<a id="closeSearch" href="#" class="fa fa-remove"></a>
+
+					<form action="page-search-result-1.html" method="get">
+						<input type="text" class="form-control" placeholder="SEARCH" />
+					</form>
+				</div> 
+				<!-- /SEARCH HEADER -->
+
+				<!-- TOP NAV -->
+				<a class="logo float-left scrollTo" href="#top">
+					<img href="" src="demo_files/images/R2.png" alt="" />
+				</a>
+				<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+					<li class="active"><!-- HOME -->
+						<a href="index-andre.html">
+							HOME
+						</a><li><!-- SERVICES -->
+							<a href="#services">
+								SERVICES
+							</a>
+						</li>	<li><!-- WORK -->
+							<a href="#work">
+								PORTEFOLIO
+							</a>
+						</li><li><!-- NEWS -->
+							<a href="#news">
+								NEWS
+							</a>
+						</li><li><!-- OVERVIEW -->
+							<a href="#clients">
+								CLIENTS
+							</a>
+						</li>
+						<li><!-- CLIENTS -->
+							<a href="#contact">
+								CONTACT
+							</a>
+						</li>
+			</div>
+
+			<!-- Reservation -->
+			<section id="reservation" class="alternate">
+				<div class="container">
+						<div class=well></div>
+					<header class="text-center mb-60 clearfix">
+						<h2 class="fw-300 mb-0">Submission <strong></strong></h2>
+					</header>
+				        </div>
+					<section id="contact">
+						<div class="container float-left">
+								<div class="col-md-3 ">
+								<label for="contact_department">Department</label>
+								<select class="form-control pointer" name="contact[department]" id="type_of_business">
+									<option id="nothing" value="nothing">--- Select ---</option>
+									<option id="Residential"value="Residential">Residential</option>
+									<option id="Commercial"value="Commercial">Commercial</option>
+									<option id="Corporatif"value="Corporatif">Corporatif</option>
+									<option id="Hybride"value="Hybride">Hybride</option>
+								</select>
+								</div>								
+								
+							<div class="row-1">
+								
+										<div class="col-md-2 float-right ">
+											<label for="Number of business"># of shop </label>
+											<input required type="text" value="" class="form-control" name="nb_shop3" id="nb_shop3">
+										</div>
+									
+										<div class="col-md-2 float-right">
+											<label for="Number floor"># floor </label>
+											<input required type="text" value="" class="form-control" name="nb_floors3" id="nb_floors3">
+										</div>
+										<div class="col-md-2 float-right">
+											<label for="Number basement"># basement</label>
+											<input required type="text" value="" class="form-control" name="nb_basement3" id="nb_basement3">
+										</div>
+										<div class="col-md-2 float-right">
+											<label for="Number of parking"># parking </label>
+											<input required type="text" value="" class="form-control" name="nb_of_parking3" id="nb_of_parking3">
+										</div>
+										<div class="col-md-2 float-right">
+											<label for="Number people"># people </label>
+											<input required type="text" value="" class="form-control" name="nb_people" id="nb_people">
+										</div>
+										<div class="col-md-2 float-right">
+												<label for="Hours of activity"> # activity </label>
+												<input required type="text" value="" class="form-control" name="Hours_of_activity" id="Hours_of_activity">
+											</div>
+								</div>
+							<div class="row-2">	
+							
+									<div class="col-md-2 float-right">
+										<label for="Number business"># business</label>
+										<input required type="text" value="" class="form-control" name="nb_business" id="nb_business">
+									</div>
+									<div class="col-md-2 float-right">
+										<label for="Number floor">#floor </label>
+										<input required type="text" value="" class="form-control" name="nb_floors2" id="nb_floors2">
+									</div>
+									<div class="col-md-2 float-right">
+										<label for="Number basement"># basement </label>
+										<input required type="text" value="" class="form-control" name="nb_basement2" id="nb_basement2">
+									</div>
+									<div class="col-md-2 float-right">
+										<label for="Number of parking"># parking </label>
+										<input required type="text" value="" class="form-control" name="nb_of_parking2" id="nb_of_parking2">
+									</div>
+									<div class="col-md-2 float-right">
+										<label for="People by floor">People by floor </label>
+										<input required type="text" value="" class="form-control" name="People_by_floors" id="People_by_floors">
+									</div>
+								
+							 </div>
+							<div class="row-3">
+								<div class="col-md-2 float-right">
+									<label for="Number shop"># shop </label>
+									<input required type="text" value="" class="form-control" name="nb_shop1" id="nb_shop1">
+								</div>
+								<div class="col-md-2 float-right">
+									<label for="Number floor"># floor </label>
+									<input required type="text" value="" class="form-control" name="nb_floors1" id="nb_floors1">
+								</div>
+								<div class="col-md-2 float-right">
+									<label for="cNumber basement"># basement </label>
+									<input required type="text" value="" class="form-control" name="nb_basement1" id="nb_basement1">
+								</div>
+								<div class="col-md-2 float-right">
+									<label for="Number of parking"># parking </label>
+									<input required type="text" value="" class="form-control" name="nb_of_parking1" id="nb_of_parking1">
+								</div>
+								<div class="col-md-2 float-right">
+									<label for="Cage elevator">Cage elevator</label>
+									<input required type="text" value="" class="form-control" name="cage_elevator" id="cage_elevator">
+								</div>
+							   </div>
+							<div class="row-4 ">   
+								<div class="col-md-2 float-right">
+									<label for="Number appartment"># appartment </label>
+									<input required type="text" value="" class="form-control" name="nb_appartments" id="nb_appartments">
+								</div>
+								<div class="col-md-2 float-right">
+									<label for="Number floor"># floor </label>
+									<input required type="text" value="" class="form-control" name="nb_floors" id="nb_floors">
+								</div>
+								
+								<div class="col-md-2 float-right">
+									<label for="Number basement"># basement </label>
+									<input required type="text" value="" class="form-control" name="nb_basement" id="nb_basement">
+								</div>
+							</div>
+										
+									<!--
+										MESSAGES
+										
+											How it works?
+											The form data is posted to php/contact.php where the fields are verified!
+											php.contact.php will redirect back here and will add a hash to the end of the URL:
+												#alert_success 		= email sent
+												#alert_failed		= email not sent - internal server error (404 error or SMTP problem)
+												#alert_mandatory	= email not sent - required fields empty
+												Hashes are handled by assets/js/contact.js
+		
+											Form data: required to be an array. Example:
+												contact[email][required]  WHERE: [email] = field name, [required] = only if this field is required (PHP will check this)
+												Also, add `required` to input fields if is a mandatory field. 
+												Example: <input required type="email" value="" class="form-control" name="contact[email][required]">
+		
+											PLEASE NOTE: IF YOU WANT TO ADD OR REMOVE FIELDS (EXCEPT CAPTCHA), JUST EDIT THE HTML CODE, NO NEED TO EDIT php/contact.php or javascript
+														 ALL FIELDS ARE DETECTED DINAMICALY BY THE PHP
+		
+											WARNING! Do not change the `email` and `name`!
+														contact[name][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
+														contact[email][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
+									-->
+		
+									<!-- Alert Success -->
+									<div id="alert_success" class="alert alert-success mb-30">
+										<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+										<strong>Thank You!</strong> Your message successfully sent!
+									</div><!-- /Alert Success -->
+		
+		
+									<!-- Alert Failed -->
+									<div id="alert_failed" class="alert alert-danger mb-30">
+										<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+										<strong>[SMTP] Error!</strong> Internal server error!
+									</div><!-- /Alert Failed -->
+		
+		
+									<!-- Alert Mandatory -->
+									<div id="alert_mandatory" class="alert alert-danger mb-30">
+										<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+										<strong>Sorry!</strong> You need to complete all mandatory (*) fields!
+									</div><!-- /Alert Mandatory -->
+									
+							</div>
+		
+						</div>
+						<br> <br>
+							        	<br> <br><br> <br><br>
+							<label style="margin-left:35px;"for="cage"># nb cage requis </label>
+						  <input style="margin-left:35px;" type="text" id="cage" name="cage" class="col-2 float-left" >
+						  
+
+
+						  <br><br>
+                       <select style="margin-left: 35px;" class="form-control pointer col-2 float-left" name="Button" id="forfait">
+							<br><br>
+		       <option id="nothing" value="nothing">--- Select ---</option>
+		       <option id="standard" value="standard">standard</option>
+		       <option id="premium"value="premium">premium</option>
+		       <option id="excelium"value="excelium">excelium</option>
+							<br><br><br><br>
+							<label for="prize"># total prize </label>
+                          <input style="margin-left:25px" type="text" id="prize" name="prize" class="col-2 float_right" >
+
+						</section>
+	</select>
+						
+
+						
+
+					</form>
+
+				</div>
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+
+					<div class="row">
+
+						<!-- col #1 -->
+						<div class="col-md-8">
+
+							<h3 class="letter-spacing-1">WHY US?</h3>
+
+						
+						</div> -->	<p>
+							For people to be happy in your building a safe elevator is a guarantee for residential or commercial
+						</p>
+						<h2>1(800) 580-7055</h2>
+					</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+						<div class="col-md-4">
+								<h3 class="letter-spacing-1">To know more</h3>
+
+								<!-- Newsletter Form -->
+								<p>Subscribe to Our Newsletter to get Important News & Offers</p>
+	
+								<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+										<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+										<span class="input-group-btn">
+											<button class="btn btn-success" type="submit">Subscribe</button>
+										</span>
+									</div>
+								</form>
+							
+						</div>
+					
+					</div>
+
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="float-right m-0 list-inline mobile-block">
+							
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		<script src="assets/js/contact.js"></script>
+		
+	
+
+		<!-- REVOLUTION SLIDER -->
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="assets/js/view/demo.revolution_slider.js"></script>
+
+	</body>
+</html>
